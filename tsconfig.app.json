@@ -14,6 +14,12 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@organisms": ["./src/components/*"],
+      "@pages/": ["./src/pages/*"],
+      "@entities/": ["./src/entities/*"],
+  },
 
     /* Linting */
     "strict": true,
